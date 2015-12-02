@@ -10,7 +10,7 @@ public class DbConfig {
 	//PRIVATE CONSTANTS+++++++++++++++++++
 	private static final String USERNAME="raveena";
 	private static final String PASSWORD="123456";
-	private static String CONN_STRING="jdbc:mysql://localhost:8080/moviedb";
+	private static String CONN_STRING="jdbc:mysql://localhost:3333/moviedb";
 	
 	//Utility method that connects to mysql database
 	public static Connection getConnection() throws SQLException
